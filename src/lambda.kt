@@ -1,7 +1,5 @@
 fun main() {
-    /* Lambda Expression : 값(value)처럼 다룰 수 있는 익명 함수
-    익명함수 :
-     */
+    // Lambda Expression : 값(value)처럼 다룰 수 있는 익명 함수
 
     val sayHello = fun() { println("Hello World!") }
     sayHello()
@@ -15,7 +13,6 @@ fun main() {
     println(squareNum3(10))
 
     fun invokeLambda(lambda: (Int) -> Boolean): Boolean {
-
         return lambda(5)
     }
 
